@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: #555555;
+}
+.header{
+    background-color: rgba(255, 255, 255, 0.7);
+    .navbar-container {
+        display: flex;
+        width: 100%;
+        font-size: 16px;
+    }
+    .navbar-container-content{
+        display: flex;
+        width: 100%;
+        justify-content: right;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 100px;
+        font-size: 16px;
+    }
+    .navbar-container-content a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #555555;
+    }
+    .menu-icon{
+        display: none;
+        color: #555555;
+    }
+}
+.Banner-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+
+
+    .Banner-Section-Content{
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            color: black;
+            font-size: 50px;
+            padding: 10px 0px;
+        }
+
+    }
+    .Banner-Image{
+        width: 625px;
+        height: 629px;
+    }
+}
+.Second-Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    .Second-Banner-Image
+    {
+    width: 309px;
+    height: 339px;
+}
+}
+/*Featuered*/
+.Featured-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px;
+    .Featured_Section-Heading{
+        padding: 50px 0px;
+        div{
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+            padding: 3px;
+        }
+    }
+    .line{
+        width: 100px;
+        background-color: #FF523B;
+        border-radius: 10px;
+    }
+
+
+    .Featured-Section-Product-Container{
+        display: flex;
+        justify-content: center;
+        gap:30px;
+        margin: 30px 0px;
+
+    }
+
+
+    .Featured-Product-Image {
+    width: 237px;
+    height: 316px;
+    transition: transform 0.5s;
+    }
+    .Featured-Product-Image:hover{
+        transform: translateY(-5px);
+    }
+    .Featured-Star-Container{
+        padding: 2px 0px;
+        img{
+         width: 15px;
+        height: 16px;   
+        }
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+.Featured-Section-Product-Container{
+    display:flex;
+}
+
+
+
+}
+h4 a{
+    text-decoration: none;
+    color: #555555;
+}
+h6{
+    font-size: 14px;
+}
+/*Latest*/
+/*Smart-Watch-Container*/
+.Smart-Watch-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 515px;
+        height: 417px;
+        padding: 50px;
+        object-fit: contain;
+    }
+    .Smart-Content-Container{
+
+        h1{
+            font-size: 50px;
+            margin: 25px 0px;
+            color: black;
+        }
+        .Buy-Btn1{
+            margin: 30px 0px;
+            padding: 8px 30px;
+            background-color: #FF523B;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            transition:background 0.5s;
+        }
+        .Buy-Btn1:hover{
+            background: #563434;
+        }
+    }
+
+
+}
+/*Testimonal Styles*/
+.Testimonal-Contianer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color:#555555;
+    padding: 100px 0px;
+
+    .Testimonal-Item-Contianer{
+        padding: 25px;
+        width: 309px;
+        border: 1px solid white;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+        justify-items: center;
+        padding: 40px 20px;
+        transition: transform 0.5s;
+    }
+    .Testimonal-Item-Contianer:hover{
+        transform: translateY(-5px);
+    }
+
+    .Testimonal-Contianer-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        align-content: center;
+        
+    }
+    .Testimonal-Star-Contianer{
+        display: flex;
+        width: 15px;
+        height: 16px;
+        justify-content: center;
+        margin: 20px;
+        
+    }
+}
+/*Brand-Logo-Container*/
+.Brand-Logo-Container{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    gap: 100px;
+
+    img{
+        filter: grayscale();
+    }
+    img:hover{
+        filter: none;
+    }
+}
+/*Footer Styles*/
+footer{
+    background-color: #222831;
+    color: #FF523B;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 20px;
+
+
+    .Footer-Text{
+        color: white;
+    }
+
+    footer,h3{
+        padding: 10px 0px;
+    }
+
+    .Footer-Image-Container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+    
+    .App-Store-Logo{
+        transition: translate 0.5s;
+        width: 141px;
+        height: 41px;
+    }
+    .App-Store-Logo:hover{
+        transform: translateY(-5px);
+    }
+    .Footer-Container-Item ul li a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .Footer-Container-Item ul li a:hover{
+        color: #FF523B;
+    }
+
+}
+
+
+.Product-Section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 0px 450px;
+
+    select{
+        padding: 5px 10px;
+        border: 1px solid #FF523B;
+    }
+    
+}
+
+
+
+.Pagination-Content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:50px;
+    margin-bottom: 70px;
+    div{
+
+        button{
+               background-color: white;
+            width:50px;
+            height: 50px;
+            border: 1px solid #FF523B;
+
+        }
+    }
+
+}
+
+.Cart{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 70px 0px;
+
+    .Small{
+        width: 1080px;
+        text-align: left;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+
+        
+    }
+
+    th{
+        background-color: #FF523B;
+
+    }
+
+    .Heading{
+                color: white;
+    }
+
+    .Cart-Conatiner{
+        display: flex;
+        padding: 10px;
+    }
+
+    td input{
+        width: 40px;
+        height: 30px;
+        text-align: center;
+    }
+
+
+}
+
+.Image-Container{
+    display: flex;
+}
+
+
+@media only screen and (max-width:800px){
+
+   .header{
+    background-color: rgba(255, 255, 255, 0.7);
+    .navbar-container {
+        display: flex;
+        font-size: 16px;
+    }
+    .navbar-container-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-container-content a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #555555;
+    }
+}
+
+    footer{
+    background-color: #222831;
+    color: #FF523B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+
+
+    .Footer-Image-Container{
+        display: flex;
+align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+    
+}
+.Brand-Logo-Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+
+.Testimonal-Contianer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color:#555555;
+}
+
+.Smart-Watch-Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Featured-Section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 100px;
+    .Featured_Section-Heading{
+        padding: 50px 0px;
+        div{
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+            padding: 3px;
+        }
+    }
+    .line{
+        width: 100px;
+        background-color: #FF523B;
+        border-radius: 10px;
+    }
+
+
+    .Featured-Section-Product-Container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:30px;
+        margin: 30px 0px;
+
+    }
+
+
+    .Featured-Product-Image {
+    width: 237px;
+    height: 316px;
+    transition: transform 0.5s;
+    }
+    .Featured-Product-Image:hover{
+        transform: translateY(-5px);
+    }
+    .Featured-Star-Container{
+        padding: 2px 0px;
+        img{
+         width: 15px;
+        height: 16px;   
+        }
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+.Featured-Section-Product-Container{
+    display:flex;
+}
+
+
+
+}
+
+.Second-Banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    .Second-Banner-Image
+    {
+    width: 309px;
+    height: 339px;
+}
+}
+
+.Banner-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin: 100px;
+
+}
+
+.Product-Section{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+
+}
+
+
+
+}
